@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.z {
+    color: #3d1558;
+    font-family: Lora;
+    margin: 10px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.z span {
+    border-radius: 50px;
+    padding: 5px;
+    background-color: #df678c;
+}
+
+.nav-bar {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu ul {
+    text-align: center;
+}
+
+.menu li {
+    font-family: Righteous;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #3d1558;
+    display: inline-block;
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: inline-block;
+}
+
+.row {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col-4 {
+    border: 1px solid #df678c;
+    margin-left: 50px;
+    border-radius: 25px;
+    text-align: center;
+    flex-basis: 25%;
+    width: 20%;
+    padding: 20px;
+    min-width: 200px;
+    margin-bottom: 100px;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.col-4 h4 {
+    color: #df678c;
+    font-weight: bolder;
+    font-family: Merienda;
+}
+
+.col-4 p {
+    color: #df678c;
+    font-family: Kaushan Script;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.col-4 button {
+    background-color: #df678c;
+    color: #3d1558;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+    font-family: Merienda;
+}
+
+footer {
+    margin-bottom: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: #3d1558;
+    text-align: center;
+    font-family: Dela Gothic One;
+}
+
+footer h1 {
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+footer h3 {
+    font-family: Pacifico;
+    font-size: 20 px;
+}
+
+footer i {
+    margin: 5px;
+}
+
+.more {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.more a {
+    padding: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display: inline;
+    }
+    .grid-item {
+        width: 250px;
+        display: grid;
+    }
+    .grid-item h3 {
+        font-size: 20px;
+    }
+    .post {
+        width: 300px;
+        margin-right: -50px;
+    }
+    .post img {
+        width: 100%;
+    }
+    .card {
+        margin-left: 45px;
+        width: 15rem;
+    }
+}
